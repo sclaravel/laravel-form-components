@@ -25,12 +25,12 @@ php artisan vendor:publish --provider="TysonLaravel\FormComponents\FormComponent
 <x-form::open :action="route(STORE_PRODUCT)">
 
     <!-- Input only --->
-    <x-forms.input name="name" :value="old('name')" required/>
+    <x-form::input name="name" :value="old('name')" required/>
 
     <!-- With group & label --->
-    <x-forms.group :label="trans('product.code')">
-        <x-forms.input name="code" :value="old('code')"/>
-    </x-forms.group>
+    <x-form::group :label="trans('product.code')">
+        <x-form::input name="code" :value="old('code')"/>
+    </x-form::group>
     
 </x-form::open>
 ```
