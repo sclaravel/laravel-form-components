@@ -2,6 +2,8 @@
 
 namespace TysonLaravel\FormComponents\Forms\Traits;
 
+use Illuminate\Support\Str;
+
 trait Render
 {
     /**
@@ -11,6 +13,6 @@ trait Render
      */
     public function render()
     {
-        return view('form-components.forms.' . Str::kebab(class_basename($this)));
+        return view('form-components::forms.' . Str::kebab(class_basename($this)));
     }
 }
