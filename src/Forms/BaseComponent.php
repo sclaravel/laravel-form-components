@@ -3,7 +3,7 @@
 namespace TysonLaravel\FormComponents\Forms;
 
 use Illuminate\View\Component;
-use TysonLaravel\FormComponents\Forms\Traits\Render;
+use TysonLaravel\FormComponents\Traits\Render;
 
 abstract class BaseComponent extends Component
 {

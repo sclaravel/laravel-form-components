@@ -1,6 +1,6 @@
 <?php
 
-namespace TysonLaravel\FormComponents\Forms\Traits;
+namespace TysonLaravel\FormComponents\Traits;
 
 trait InitPlugin
 {

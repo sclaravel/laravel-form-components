@@ -2,7 +2,7 @@
 
 namespace TysonLaravel\FormComponents\Forms;
 
-use TysonLaravel\FormComponents\Forms\Traits\InitPlugin;
+use TysonLaravel\FormComponents\Traits\InitPlugin;
 
 class Input extends BaseComponent
 {

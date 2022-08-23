@@ -2,7 +2,7 @@
 
 namespace TysonLaravel\FormComponents\Forms;
 
-use TysonLaravel\FormComponents\Forms\Traits\Enumable;
+use TysonLaravel\FormComponents\Traits\Enumable;
 
 class Radio extends BaseComponent
 {

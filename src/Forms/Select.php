@@ -2,8 +2,7 @@
 
 namespace TysonLaravel\FormComponents\Forms;
 
-use TysonLaravel\FormComponents\Forms\Traits\Enumable;
-use TysonLaravel\FormComponents\Forms\Traits\InitPlugin;
+use TysonLaravel\FormComponents\Traits\{InitPlugin, Enumable};
 use Illuminate\Support\HtmlString;
 
 class Select extends BaseComponent
