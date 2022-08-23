@@ -34,7 +34,7 @@
         "TysonLaravel\\FormComponents\\FormComponentServiceProvider"
       ]
     }
-  },,
+  },
   "minimum-stability": "stable"
 }
 
