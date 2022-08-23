@@ -36,7 +36,7 @@ class FormComponentServiceProvider extends ServiceProvider
 
         $this->loadViewsFrom(__DIR__ . '/../resources/views', 'form-components');
 
-        Blade::componentNamespace('TysonLaravel\FormComponents\Forms', 'forms');
+        Blade::componentNamespace('TysonLaravel\\FormComponents\\Forms', 'form');
 
         Blade::component('alert', Alert::class);
     }
