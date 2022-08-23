@@ -3,7 +3,7 @@
         <span class="input-group-text">{{ $attributes->get('prepend') }}</span>
     @endif
 
-    <x-forms.input :name="$name" :type="$type" :value="$value"/>
+    <x-form::input :name="$name" :type="$type" :value="$value"/>
 
     @if ($attributes->has('append'))
         <span class="input-group-text">{{ $attributes->get('append') }}</span>
