@@ -14,11 +14,14 @@ abstract class BaseComponent extends Component
      *
      * @return string
      */
-    public function required()
+    public function isRequired()
     {
-        return property_exists($this, 'required') && $this->required ? 'required' : '';
-    }
+        if (!$this->attributes->has('required') || ($this->attributes->get('required', 'false') === 'false') || !$this->attributes->get('required', 'false')) {
+            return '';
+        }
 
+        return 'required=true';
+    }
     /**
      * Check setting readonly and set attribute
      *
